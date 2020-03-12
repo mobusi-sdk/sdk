@@ -1,0 +1,24 @@
+buildscript {
+  repositories {
+    jcenter()
+    google()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.5.3'
+  }
+}
+
+allprojects {
+  repositories {
+    jcenter()
+    flatDir {
+      dirs 'libs'
+    }
+    google()
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
