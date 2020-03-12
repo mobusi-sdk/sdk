@@ -283,17 +283,6 @@ If you use proguard add these rules:
 -dontwarn com.moat.**
 -keep class com.moat.** { public protected private *; }
 
-#Mintegral
--keepattributes Signature   
--keepattributes *Annotation*   
--keep class com.mintegral.** {*; }  
--keep interface com.mintegral.** {*; }  
--keep class android.support.v4.** { *; }  
--dontwarn com.mintegral.**   
--keep class **.R$* { public static final int mintegral*; }
--keep class com.alphab.** {*; }
--keep interface com.alphab.** {*; }
-
 #UnityAds
 -keepattributes SourceFile,LineNumberTable
 -keepattributes JavascriptInterface
