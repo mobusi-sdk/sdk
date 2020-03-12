@@ -21,7 +21,7 @@
     </activity>
     <meta-data
         android:name="com.google.android.gms.ads.APPLICATION_ID"
-        android:value="YOUR_ADMOB_APPLICATION_ID"
+        android:value="YOUR_ADMOB_APPLICATION_ID"/>
   </application>
 
 </manifest>

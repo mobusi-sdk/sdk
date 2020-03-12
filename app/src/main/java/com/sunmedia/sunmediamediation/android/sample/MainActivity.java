@@ -12,7 +12,6 @@ import com.labcave.mediationlayer.LabCaveMediationBannerView;
 import com.labcave.mediationlayer.MediationType;
 import com.labcave.mediationlayer.mediationadapters.models.Info;
 import com.sunmedia.sdk.SunMediaAds;
-import com.sunmedia.sdk.SunMediaAds.FORMATS;
 import com.sunmedia.sdk.SunMediaAdsListener;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
