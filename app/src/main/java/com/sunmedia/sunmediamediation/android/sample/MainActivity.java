@@ -15,7 +15,7 @@ import com.sunmedia.sdk.SunMediaAds;
 import com.sunmedia.sdk.SunMediaAdsListener;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-  private static final String APP_ID = "YOUR_APP_HASH";
+  private static final String APP_ID = "5b10f0d99a5fd624626b8e79";
 
   private LabCaveMediationBannerView bannerView;
   private final Handler UIHandler = new Handler(Looper.getMainLooper());
