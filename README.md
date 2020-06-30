@@ -19,21 +19,20 @@ SunMediaAds supports Banners, Interstitials and Video Rewarded from various lead
     
     dependecies{
         implementation fileTree(dir: 'libs/libs', include: ['*.jar'])
-          implementation 'com.google.android.gms:play-services-base:17.3.0'
-  implementation 'com.google.android.gms:play-services-ads:19.2.0'
-  implementation 'com.android.support:appcompat-v7:28.0.3'
+        implementation 'com.google.android.gms:play-services-base:17.3.0'
+        implementation 'com.google.android.gms:play-services-ads:19.2.0'
+        implementation 'com.android.support:appcompat-v7:28.0.3'
 
+        implementation(name:'sunmedia-2.12.2', ext: 'aar')
+        implementation(name:'libs/smart-core-sdk-7.4.1', ext:'aar')
+        implementation(name:'libs/smart-display-sdk-7.4.1', ext:'aar')
+        implementation(name:'libs/spotx-sdk-android-4.8.1', ext:'aar')
+        implementation(name:'libs/exoplayer-hls-2.10.4', ext:'aar')
+        implementation(name:'libs/exoplayer-core-2.10.4', ext:'aar')
 
-  implementation(name:'sunmedia-2.12.2', ext: 'aar')
-  implementation(name:'libs/smart-core-sdk-7.4.1', ext:'aar')
-  implementation(name:'libs/smart-display-sdk-7.4.1', ext:'aar')
-  implementation(name:'libs/spotx-sdk-android-4.8.1', ext:'aar')
-  implementation(name:'libs/exoplayer-hls-2.10.4', ext:'aar')
-  implementation(name:'libs/exoplayer-core-2.10.4', ext:'aar')
-
-  implementation(name:'libs/consent-library-release', ext:'aar')
-  implementation(name:'libs/AudienceNetwork', ext:'aar')
-  implementation(name:'libs/recyclerview-v7', ext:'aar')
+        implementation(name:'libs/consent-library-release', ext:'aar')
+        implementation(name:'libs/AudienceNetwork', ext:'aar')
+        implementation(name:'libs/recyclerview-v7', ext:'aar')
     }
 ```
 
